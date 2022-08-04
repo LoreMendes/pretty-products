@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: .25em;
   padding-right: 1rem;
 }
 
@@ -76,9 +76,11 @@ img:first-of-type {
 
 
 
-/* - *Typefaces:* `Karma`, `Oswald`
+/* -  *Typefaces:* `Karma`, `Oswald`
 - *Text sizes:* `1.4rem`, `2rem`
-- *Colours:* `#6f00e7`, ``, `#000`
+- *Line-heights:* `1.5`
+- *Colours:* `#6f00e7`, `#987ffa`, `#000`
+- *Gaps:* `1rem`
 - *Margins:* `.25em`, `1.5rem`
 - *Paddings:* `.5em 1.5em .7em`, `.25em`, `1rem`
 - *Border thicknesses:* `3px`
