@@ -70,8 +70,8 @@ justify-content: space-around;
   margins: .25em, 1.5em;
 }
 
-img:first-of-type {
-  width: 502%;
+img {
+  width: 30%;
 }
 
 
