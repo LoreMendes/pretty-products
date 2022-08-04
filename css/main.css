@@ -9,18 +9,7 @@ html {
 }
 
 body {
-  margin: .25em;
-  padding-right: 1rem;
-}
-
-h2 {
-  font-family: Oswald, sans-serif;
-  color: #6f00e7;
-  font-weight: bold;
-  font-size: 2rem;
-  padding-left: 1rem;
-  padding-bottom: 1rem;
-  margin-top: 1rem;
+  margin: 0;
 }
 
 ol {
@@ -28,64 +17,69 @@ ol {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-ol > li {
+li {
   display: flex;
   flex-direction: column;
   border: 3px solid #987ffa;
   border-radius: 6px;
   padding: 1rem;
-  justify-content: space-between;
+  padding-bottom: .9rem;
   align-items: center;
 }
 
-.cart {
-  background-color: #6f00e7;
-  font-size: 1.4rem;
-  padding: .5em;
-  border-radius: 6px;
-  border: 3px solid #6f00e7;
-  text-decoration: none;
-  align-items: baseline;
-  font-family: Oswald, sans-serif;
+.item {
+  max-height: 240px;
 }
 
-ol li a {
+h2 {
   font-family: Oswald, sans-serif;
-  color: #fff;
-  font-size: 1.4rem;
-  padding: .5em;
-  border-radius: 3px;
-  text-decoration: none;
-  align-items: baseline;
-  justify-content: space-around;
-}
-
-ol ul {
-  display: flex;
-  list-style-type: none;
-  align-items: flex-end;
-  justify-content: space-around;
+  font-size: 2rem;
+  color: #6f00e7;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 p {
-  justify-content: space-around;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: Karma, serif;
+  font-size: 1.4rem;
+  font-weight: 500;
   color: #000;
-  padding: .5em 1.5em .7em;
-  margin: .25em 1.5em;
+  text-align: center;
 }
 
-img {
-  width: 50%;
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-/* -  *Typefaces:* `Karma`, `Oswald`
-- *Text sizes:* `1.4rem`, `2rem`
-- *Line-heights:* `1.5`
-- *Colours:* `#6f00e7`, `#987ffa`, `#000`
-- *Gaps:* `1rem`
-- *Margins:* `.25em`, `1.5rem`
-- *Paddings:* `.5em 1.5em .7em`, `.25em`, `1rem`
-- *Border thicknesses:* `3px`
-- *Corner-radii:* `3em`, `6px` */
+.add-to-cart-button {
+  font-family: Oswald, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6f00e7;
+  border-radius: 3em;
+  border: 3px solid #6f00e7;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  padding-right: 1.4rem;
+  padding-left: 1.4rem;
+  margin-left: .1rem;
+}
+
+.favourite {
+  margin-left: 3.7rem;
+  margin-right: .5rem;
+  padding-top: .4rem;
+}
+
+.share {
+  padding-top: .4rem;
+}
