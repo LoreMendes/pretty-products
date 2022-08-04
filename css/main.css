@@ -2,6 +2,10 @@ html {
   box-sizing: border-box;
   font-family: "Karma";
   line-height: 1.5;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 130%;
 }
 
 *, *::before, *::after {
@@ -17,7 +21,7 @@ h2 {
   font-family: "Oswald", sans-serif;
   color: #6f00e7;
   font-weight: bold;
-  font-size: 2rem
+  font-size: 2rem;
   padding-left: 1rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
@@ -42,33 +46,37 @@ ol > li {
 
 .cart {
   background-color: #6f00e7;
-  font-size: 1.4rem
+  font-size: 1.4rem;
   padding: .5em;
   border-radius: 6px;
   border: 3px solid #6f00e7;
   text-decoration: none;
+  align-items: baseline;
 }
 
 ol li a {
   font-family: "Oswald";
   color: #fff;
-  font-size: 1.4rem
+  font-size: 1.4rem;
   padding: .5em;
   border-radius: 3px;
   text-decoration: none;
+  align-items: baseline;
+  justify-content: space-around;
 }
 
 ol ul {
   display: flex;
   list-style-type: none;
   align-items: flex-end;
+  justify-content: space-around;
 }
 
 p {
 justify-content: space-around;
   color: #000;
-  paddings: -top: .5em, 1.5em, .7em;
-  margins: .25em, 1.5em;
+  padding: .5em, 1.5em, .7em;
+  margin: .25em, 1.5em;
 }
 
 img {
